@@ -1,4 +1,19 @@
-﻿using System;
+﻿// معلومات مهمه
+
+/*
+
+ انواع البيانات
+
+int = ارقام صحيحه مثال 2
+double = ارقام مع فاصله مثال 3.6
+string = حروف او ارقام او جمل
+bool = صحيح و غير صحيح
+
+يمديك تشوف طريقة استخدامها تحت
+
+ */
+
+using System;
 
 namespace LearingCSharp
 {
@@ -6,6 +21,9 @@ namespace LearingCSharp
     {
         static void Main(string[] args)
         {
+            //FirstLeason();
+            //SecondLeason();
+            //ThirdLeason();
             FourthLeason();
         }
 
@@ -62,7 +80,26 @@ namespace LearingCSharp
 
         static void FourthLeason()
         {
+            // المثال الاول
 
+            double a = 9.35;
+
+            // Convert = هي مكتبة يمديك تحول فيها المتغيرات الى متغيرات اخره
+            int b = Convert.ToInt32(a); // Double بدل Int الى A مثال حولنا
+
+            Console.WriteLine(b);
+            
+            Console.WriteLine(b.GetType()); // عشان يكتب لك نوع البيانات المستخدم GetType() يمديك تكتب
+
+            // المثال الثاني
+
+            int c = 8;
+
+            double d = Convert.ToDouble(c) + 0.3; // و اضفنا لهم رقم زياده double الى int حولنا
+
+            Console.WriteLine(d);
+
+            Console.ReadKey();
         }
     }
 }
