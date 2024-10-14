@@ -24,8 +24,8 @@
 
 1. **نزل الريبو** على جهازك:  
     ```bash
-    git clone https://github.com/username/csharp-basics.git
-    cd csharp-basics
+    git clone https://github.com/KrezDev/Learn-CSharp.git
+    cd Learn-CSharp
     ```
 
 2. تأكد إنك عندك **Visual Studio** أو **Visual Studio Code** مع إضافات C#.  
@@ -52,6 +52,10 @@
 
 ---
 
+## ⭐ عطنا نجمة إذا أعجبك المحتوى!  
+
+---
+
 ## 📄 الترخيص  
 هذا المشروع تحت **MIT License**، تقدر تستخدمه وتطوره مثل ما تبغى.
 
@@ -64,3 +68,7 @@
 ---
 
 ### شكراً على مرورك، ونتمنى لك رحلة موفّقة في البرمجة! 👏
+
+---
+
+🔗 **رابط الريبو:** [Learn-CSharp على GitHub](https://github.com/KrezDev/Learn-CSharp/tree/main)
